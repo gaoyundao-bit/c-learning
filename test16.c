@@ -13,9 +13,9 @@ int main() {
         end--;
     }
 
-    printf("ÄæÖÃºó½á¹û: \n");
+    //printf(" \n");
     for(int i = 0; i < sizeof(arr)/sizeof(arr[0]); i++) {
-        printf("%d\n ", arr[i]);
+        printf("%d\n", arr[i]);
     }
     
     return 0;
