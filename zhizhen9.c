@@ -11,5 +11,8 @@ int main () {
         }
         printf("\n");
     }
+    printf("%p\n",arr);
+    printf("%p\n",arr[0]);
+    printf("%p\n",&arr[0]); //arr的地址而不是arr的值，arr的值是数组a的地址
     return 0;
 }
