@@ -11,7 +11,7 @@ int main () {
             }
            }
     }
-    printf(" ÅÅĞòºó½á¹û: \n");
+    printf(" æ’åºç»“æœä¸º: \n");
     for (int a = 0;a < 10;a++){
         printf("%d\n", arr[a]);
     }
