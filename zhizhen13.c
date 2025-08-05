@@ -4,7 +4,7 @@ void remove1(char *ch)
     char str[100] = {0};
     int i = 0;
     int j = 0;
-    while (ch[i] != '\0')
+    while (ch[i])
     {
         if (ch[i] != ' ')
         {
