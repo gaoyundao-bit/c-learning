@@ -10,5 +10,5 @@ int main() {
         }
         i++;
     }while (i <= 999);
-
+    getchar();
 }
