@@ -1,20 +1,25 @@
 #include <stdio.h>
 
+
 int main() {
-    FILE* fp = fopen("D:\\hello.txt", "w");
+    FILE* fp = fopen("D:\\hello.txt", "r");
     
     if(fp == NULL) {
-        printf("无法打开文件\n");
-        return 1;
+        printf("失败\n");
+        return -1;
     }
+    printf("ok%p",fp);
+    // 读取文件内容
+    //int ch;
+    //while((ch = fgetc(fp)) != EOF) {
+        //putchar(ch);
+    //}
     
-    // 写入内容到文件
-   // fprintf(fp, "Hello World");
+    // 检查是否正常结束
+    //if(ferror(fp)) {
+        //fprintf(stderr, "文件读取错误\n");
+    //}
     
-    // 关闭文件
-    //fclose(fp);
-    
-    printf("文件已成功写入\n",fp);
-    getchar();
+    fclose(fp);
     return 0;
 }
