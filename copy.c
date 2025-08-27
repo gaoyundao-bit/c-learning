@@ -2,7 +2,7 @@
 
 void copy(char* dest, char* ch) {
     int i = 0;
-    while(ch[i]) {  // 移除多余的分号
+    while(ch[i]) {  
         dest[i] = ch[i];
         i++;
     }
