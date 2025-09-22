@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <windows.h>
+//#include <windows.h>
 void copy1(char* dest,char* ch){
-    int i = 0;
+    int i = 0;//相当于把指针当数组来用
     while (*(ch+i)){
         *(dest+i)=*(ch +i);
         i++;
