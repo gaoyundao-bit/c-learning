@@ -10,8 +10,7 @@ int main () {
                 arr[j+1] = temp;
             }
            }
-    }
-    printf(" 排序结果为: \n");
+        }
     for (int a = 0;a < 10;a++){
         printf("%d\n", arr[a]);
     }
